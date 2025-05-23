@@ -7,7 +7,7 @@ print(name)
 # Eine Variable ist ein Datenbehälter
 # Jede Variable benötigt wichtige Informationen: 
 #                                               - Bezeichner (Name der Variable)
-#                                               - Bezeichner sprechend bennenen
+#                                               - Bezeichner sprechend benennen
 #                                               - Englisch Begriffe verwenden
 # Zuweisungsoperator "=" weist den rechten Wert dem linken zu 
 # Nur ein Wert kann sich in einer Variable befinden
