@@ -7,7 +7,7 @@ number = random.randint(1, 100)
 tries = 0
 goal = False
 
-while not goal:
+while not goal: 
    
     guess = int(input("Gebe eine Ganzzahl zwischen 1 - 100 ein: "))
     tries += 1
