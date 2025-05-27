@@ -2,7 +2,7 @@
 
 print("Positiv, Negativ oder Null?")
 
-number = int(input("Gebe ein Zahl ein: "))
+number = float(input("Gebe ein Zahl ein: "))
 
 if number > 0:
     print("Diese Zahl ist positiv")
