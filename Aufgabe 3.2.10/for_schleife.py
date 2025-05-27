@@ -5,7 +5,7 @@ sum = 0
 for element in range(1, 101):
     if element % 2 == 0:
         sum += element
-print(f"Die Summer aller gerade Zahlen ist: {sum}")
+print(f"Die Summer aller geraden Zahlen ist: {sum}")
 
 # Anpassung
 
