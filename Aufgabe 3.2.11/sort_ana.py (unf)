@@ -1,0 +1,14 @@
+
+
+end = False
+end_2 = "stop"
+inserts = [] # Erstellt ein leere Liste
+
+while not end:
+    insert = input('Gebe ein Zahl oder "stop" ein: ')
+    if insert == end_2:
+        end = True
+    if insert.isdigit(): # .isdigit() filtert nicht Zahlen
+        inserts.append(insert) # .append speichert Eingaben in der Liste
+print(inserts)
+    
