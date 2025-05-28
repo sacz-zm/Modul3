@@ -24,7 +24,7 @@ for element in numbers:
         max_number = element
     total += element
 avg = total / len(numbers)
-print(f"Die kleinste Zahl ist: {min_number}")
+print(f"Die kleinste Zahl ist: (style:cyan) {min_number}")
 print(f"Die größte Zahl ist: {max_number}")
 print(f"Der Durchschnitt der Summe liegt bei: {avg}")
 print(f"Sortierung: {numbers}")
