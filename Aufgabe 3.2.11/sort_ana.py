@@ -12,7 +12,7 @@ while not end:
         inserts.append(insert) # .append speichert Eingaben in der Liste
 print(inserts)
 
-numbers = [int(x) for x in inserts] # Das die inserts als String gespeichert werden
+numbers = [int(x) for x in inserts] # Da die inserts als String gespeichert werden
 numbers.sort()                      # .sort() sortiert die Zahlen aufsteigend
 min_number = numbers[0]
 max_number = numbers[0]
@@ -28,4 +28,3 @@ print(f"Die kleinste Zahl ist: {min_number}")
 print(f"Die größte Zahl ist: {max_number}")
 print(f"Der Durchschnitt der Summe liegt bei: {avg}")
 print(f"Sortierung: {numbers}")
-
