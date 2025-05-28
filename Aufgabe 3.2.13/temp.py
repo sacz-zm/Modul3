@@ -20,7 +20,7 @@ while not end:
     print("\nWelche Umrechung soll stattfinden?\n")
     print("Für Celsius zu Fahrenheit die '1' eingeben")
     print("Für Fahrenheit zu Celsius die '2' eingeben")
-    print("Beenden Sie das Programm mit 'stop'\n")
+    print("Beenden Sie das Programm mit '3'\n")
     insert = input("Auswahl: ")
     
 # Abfrage Temperatur
@@ -33,7 +33,7 @@ while not end:
         temp = float(input("Gebe die Temperatur in Fahrenheit ein: "))
         result = f_to_cel(temp)
         print(f"\n{temp} °F sind {result} °C \n")
-    elif insert == "stop":
+    elif insert == "3":
         end = True
     else: 
         print("Eingabe ungültig!")
