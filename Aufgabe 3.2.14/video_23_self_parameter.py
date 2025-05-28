@@ -6,7 +6,7 @@ class Car:
         self.horse_power = None
         self.color = None
 # self gibt automatisch die Refernz auf das aktuelle Objekt mit, wenn die __init__ Methode aufgerufen wird
-# Python kann dadurch eindeutig zugeordnen, welches Attribut von welchem konkreten Objekt geändert werden soll
+# Python kann dadurch eindeutig zuordnen, welches Attribut von welchem konkreten Objekt geändert werden soll
 car_1 = Car() 
 
 print(car_1.car_brand) 
