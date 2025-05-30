@@ -43,5 +43,5 @@ print(car_2.color)
 # Druch klassennamen() muss ein konkretes Objekt erstellt werden
 # Jedes erstellte Objekt ist einzelnd zu betrachten
 # Von der Klasse können beliebig viele Objekte erstellt werden
-# Die Objekte haben zwar die gleiche Attribute (Da in der Klasse vorgegeben)
-# Die Werte können aber für jedes Objekt einzelnd modifizieren
+# Die Objekte haben zwar die gleichen Attribute (Da in der Klasse vorgegeben)
+# Die Werte können aber für jedes Objekt einzelnd modifiziert werden
