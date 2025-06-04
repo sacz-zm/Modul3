@@ -5,6 +5,14 @@ from PIL import Image, ImageTk, ImageSequence
 root = tk.Tk()
 root.geometry("400x300")
 
+gif = tk.Toplevel()
+gif.geometry("400x300")
+
+label = tk.Label(gif)
+label.pack()
+
+# Gif
+
 img = Image.open("giphy.gif")
 
 label = tk.Label()
@@ -16,7 +24,7 @@ def update(ind):
     frame = frames[ind]
     label.config(image=frame)
     ind = (ind + 1) % len(frames)
-    root.after(100, update, ind)
+    gif.after(100, update, ind)
 update(0)
 
 root.mainloop()
