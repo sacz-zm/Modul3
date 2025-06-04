@@ -46,8 +46,4 @@ quit_app.grid(row=0, column=0)
 play_game = ttk.Button(bottom_frame, text="Game", command=logic.play_game)
 play_game.grid(row=0, column=1)
 
-
-
-
-
 root.mainloop()

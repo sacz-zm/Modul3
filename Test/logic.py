@@ -7,10 +7,14 @@ from PIL import Image, ImageTk, ImageSequence
 
 def show_gif():
     gif = tk.Toplevel()
-    gif.geometry("400x300")
-
+    
     label = tk.Label(gif)
     label.grid()
+
+    gif.update()
+    width = gif.winfo_width()
+    height = gif.winfo_height()
+    gif.geometry = (f"{width}x{height}")
 
     img = Image.open("giphy.gif")
 
